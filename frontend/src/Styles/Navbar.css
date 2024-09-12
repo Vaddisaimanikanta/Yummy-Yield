@@ -1,0 +1,77 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    background-color: transparent; /* Default background color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    z-index: 1000;
+}
+
+.navbar.scrolled {
+    background-color: #333; /* Background color when scrolled */
+}
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #11ff00;
+    letter-spacing: 2px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items ul li {
+    margin: 0 20px;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+}
+
+.signup li {
+    margin: 0 10px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    cursor: pointer;
+    background-color: rgba(26, 255, 0, 0.747);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.nav-items ul li:hover {
+    border-bottom: 3px solid red;
+}
+
+.signup li:hover {
+    transform: scale(1.1, 1.1);
+}

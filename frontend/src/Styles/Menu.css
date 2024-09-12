@@ -1,0 +1,26 @@
+.category-section {
+    margin-top: 10px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+  
+  .category-item {
+    text-align: center;
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  .category-image {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .category-name {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
